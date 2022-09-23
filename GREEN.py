@@ -14,7 +14,7 @@ bit = platform.architecture()[0]
 
 if bit == "64bit":
 
-        from GREEN-X import login
+        from GREEN import login
 
         login()
 elif b == '32bit':
